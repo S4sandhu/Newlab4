@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChatRoom">
+    tools:context="ui.ChatRoom">
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycleView"
@@ -15,12 +16,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="58dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="139dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="28dp"
         android:ems="10"
         android:inputType="text"
         android:text="Name"
@@ -31,9 +33,21 @@
         android:id="@+id/Send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="295dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="304dp"
+        android:layout_marginBottom="24dp"
         android:text="Send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/recieve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

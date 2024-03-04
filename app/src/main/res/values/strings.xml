@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Newlab4</string>
+    <string name="message_goes_here">Message goes here</string>
+    <string name="time_goes_here">Time goes here</string>
 </resources>
